@@ -17,7 +17,6 @@ RUN curl --silent https://getcomposer.org/installer | php > /dev/null 2>&1 && \
 
 RUN apt-get update > /dev/null 2>&1 && \
     apt-get -y install \
-        curl \
         git \
         zip \
         unzip \
